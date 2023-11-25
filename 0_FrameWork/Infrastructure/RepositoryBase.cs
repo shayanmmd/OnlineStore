@@ -19,7 +19,7 @@ public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class
     }
     public void Delete(T item)
     {
-        _context.Remove<T>(item);   
+        _context.Remove<T>(item);
     }
     public T Get(TKey key)
     {
