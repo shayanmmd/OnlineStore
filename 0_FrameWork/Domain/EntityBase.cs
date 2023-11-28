@@ -3,5 +3,5 @@
 public class EntityBase
 {
     public long Id { get; set; }
-    public DateTime BirthDate { get; set; }
+    public DateTime CreationDate { get; set; }
 }
